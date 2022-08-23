@@ -1,0 +1,129 @@
+.container{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    /* border:1px solid red; */
+
+}
+.takenotecontainer{
+    width:100%;
+    height:100%;
+    position: relative;
+    /* left: 480px; */
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: white;
+    /* border: 1px solid grey; */
+    border-radius: 15px;
+}
+.Paperclass{
+    position:relative;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 1px 1px grey;
+    left:480px;
+    width:40%;
+    height:40%;
+}
+
+#pidnote{
+    width:63%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-left:10px; */
+    /* border:1px solid violet; */
+    text-align: left;
+}
+.cardicon{
+    width:32%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+/* #photoicon{
+    margin-top:10px;
+}
+#brushicon{
+    margin-top:10px;
+}
+#checkboxicon{
+    margin-top:10px;
+
+} */
+
+@media only screen and (min-width :320px) and (max-width :480px) {
+    .takenotecontainer{
+        width:300px;
+        height:auto;
+        left:0px;
+        position: relative;
+        z-index:2;
+    }
+    #pidnote{
+        width:100%;
+    }
+    .Paperclass{
+        position:relative;
+        z-index:1;
+        left:65px;
+        width:310px;
+        box-shadow: 1px 1px 1px 1px grey;
+        height:30%;
+    }
+    
+    .cardicon{
+        width:50%;
+    }
+}
+@media only screen and (min-width :481px) and (max-width :720px) {
+    .takenotecontainer{
+        width:380px;
+        height:auto;
+        left:0px;
+        position: relative;
+        z-index:2;
+    }
+    #pidnote{
+        width:100%;
+    }
+    .Paperclass{
+        position:relative;
+        z-index:1;
+        left:85px;
+        width:390px;
+        /* border: 1px solid green; */
+        box-shadow: 1px 1px 1px 1px grey;
+        height:30%;
+    }
+    .cardicon{
+        width:45%;
+    }
+}
+@media only screen and (min-width :721px) and (max-width :1024px) {
+    .takenotecontainer{
+        width:500px;
+        height:auto;
+        left:0px;
+        position: relative;
+        z-index:2;
+    }
+    #pidnote{
+        width:100%;
+    }
+    .Paperclass{
+        position:relative;
+        z-index:1;
+        left:75px;
+        width:520px;
+        /* border: 1px solid green; */
+        box-shadow: 1px 1px 1px 1px grey;
+        height:30%;
+    }
+    .cardicon{
+        width:45%;
+    }
+}

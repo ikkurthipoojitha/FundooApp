@@ -1,0 +1,118 @@
+/* .maincontainer1{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     align-content: center; 
+     border: 1px solid green; 
+} */
+/* .googletext1{
+    margin-top: 40px;
+    width:400px;
+    height:65%;
+    display: flex;
+    top:22px;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-start;
+     border: 1px solid grey; 
+    margin-left:10px;
+    padding: 20px;
+
+} */
+/* .cardclass{
+    width:20%;
+} */
+/* .logotext1{
+    width:100%;
+    height:10%;
+     top:20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     border: 1px solid violet; 
+
+} */
+#pid{
+    width:100%;
+    height:10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    left:200px;
+}
+p{
+    text-align: center;
+}
+spanid{
+    font-weight:normal;
+    font-size: larger;
+}
+#logo{
+    text-align: center;
+    top:5px;
+}
+.textbox1{
+    width:100%;
+    height:65%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Buttoncontainer1{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 1px solid greenyellow; */
+}
+#buttontext{
+    text-transform: capitalize;
+}
+
+@media only screen and (min-width :360px) and (max-width :480px) {
+    .googletext1{
+        width:85%;
+        height:70%;
+        margin-top:0px;
+        border:none;
+    }
+    .textbox1{
+        width:85%;
+    }
+    .Buttoncontainer1{
+        width: 85%;
+    }
+}
+@media only screen and (min-width :481px) and (max-width :720px) {
+    .googletext1{
+        width:80%;
+        height:auto;
+        margin-top:5px;
+        border:none;
+    }
+    .textbox1{
+        width:75%;
+    }
+    .Buttoncontainer1{
+        width: 75%;
+    }
+}
+@media only screen and (min-width :721px) and (max-width :1024px) {
+    .googletext1{
+        width:80%;
+        height:70%;
+        /* border:none; */
+    }
+    .textbox1{
+        width:85%;
+    }
+    .Buttoncontainer1{
+        width: 85%;
+    }
+}
